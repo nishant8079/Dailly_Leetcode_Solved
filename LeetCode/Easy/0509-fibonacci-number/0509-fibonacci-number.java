@@ -5,9 +5,8 @@ class Solution {
             return n;
         }
 
-        int num1 = fib(n-1);
-        int num2 = fib(n-2);
-        return num1 + num2;
+        int sum = fib(n-1) + fib(n-2);
+        return sum;
         
     }
 }
