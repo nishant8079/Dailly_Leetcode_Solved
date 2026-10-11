@@ -5,7 +5,10 @@ class Solution {
             return n;
         }
 
-        int sum = fib(n-1) + fib(n-2);
+        int num1 = fib(n-1);
+        int num2 = fib(n-2);
+
+        int sum = num1 + num2;
         return sum;
         
     }
